@@ -1,0 +1,89 @@
+:root {
+    --brand-color: #0d1b2a;
+    --brand-light-color: #1b263b;
+    --mid-tone-color: #415a77;
+    --dark-gray: #778da9;
+    --light-gray: #e0e1dd;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--brand-color);
+    color: #fff;
+    font-family: "poppins", sans-serif;
+    font-size: 1.6rem;
+    /* overflow: hidden; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--brand-light-color);
+    height: 80px;
+}
+
+nav .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 0.5rem;
+
+}
+
+nav .nav-menu li {
+    list-style: none;
+    margin: 0.5rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+/* Main Section Styles */
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8rem 0;
+}
+
+
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 4rem;
+
+}
+
+.purple {
+    color: var(--dark-gray);
+    font-weight: 700;
+}
+
+.rightSection img {
+    width: 100%;
+}
+
+
+
+
+/* End of Main Section Styles */
